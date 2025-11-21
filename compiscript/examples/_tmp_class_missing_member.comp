@@ -1,0 +1,7 @@
+
+    class A {
+        function f(): integer { return 1; }
+    }
+    let o = new A();
+    let x = o.missing;
+    

@@ -1,0 +1,19 @@
+const ONE: integer = 1;
+
+class Acc {
+  let sum: integer;
+  function constructor(init: integer) { this.sum = init; }
+  function add(x: integer): integer { this.sum = this.sum + x; return this.sum; }
+}
+
+let arr: integer[] = [1,2,3];
+let first: integer = arr[0];
+
+try {
+  let tmp: integer = 42;
+} catch (e) {
+  let y: integer = 2;
+}
+
+let a = new Acc(10);
+let s: integer = a.add(5);  

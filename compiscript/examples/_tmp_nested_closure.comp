@@ -1,0 +1,9 @@
+
+    function outer(a: integer): integer {
+        function inner(b: integer): integer {
+            return a + b; // captura 'a'
+        }
+        return inner(5);
+    }
+    let x: integer = outer(7);
+    

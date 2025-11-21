@@ -1,0 +1,9 @@
+
+    function f(x: integer): integer {
+        function g(x: integer): integer { // sombrea parámetro de f
+            return x + 1;
+        }
+        return g(10);
+    }
+    let r: integer = f(5);
+    

@@ -1,0 +1,7 @@
+
+    function outer(): integer {
+        function hidden(): integer { return 1; }
+        return hidden();
+    }
+    let y: integer = hidden(); // fuera de alcance
+    

@@ -1,0 +1,67 @@
+const C: integer = 5;
+let a: integer = 1 + 2 * 3;          // 7
+let b: boolean = (a > 3) && true;    // true
+
+
+let arr: integer[] = [1, 2, 3];
+let x: integer = arr[0] + arr[1];    // 3
+
+foreach (i in arr) {
+    let i: integer = 99;             
+}
+
+function fact(n: integer): integer {
+    if (n == 0) { return 1; }
+    return n * fact(n - 1);
+}
+
+function outer(base: integer): integer {
+    function add(k: integer): integer {
+        return base + k;
+    }
+    return add(10);
+}
+
+let f5: integer = fact(5);           // 120
+let o13: integer = outer(3);         // 13
+
+class A {
+    let v: integer = 7;
+
+    function inc(d: integer): integer {
+        return this.v + d;
+    }
+
+    function sum(a: integer, b: integer): integer {
+        return a + b;
+    }
+}
+
+let o = new A();
+let z: integer = o.inc(3);           // 10
+let s: integer = o.sum(2, 4);        // 6
+
+if (z > 5 && true) { 
+    // ok
+} else {
+}
+
+while (false) {
+    break;
+}
+
+do {
+    continue;
+} while (false);
+
+for (let i: integer = 0; i < 3; i = i + 1) {
+}
+
+let eq: boolean = (a == 7);
+let ne: boolean = (a != 9);
+let lt: boolean = (a <  10);
+let gt: boolean = (a >  0);
+let notb: boolean = !false;
+let neg: integer = -a;
+
+

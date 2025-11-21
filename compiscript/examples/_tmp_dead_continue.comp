@@ -1,0 +1,6 @@
+
+    while (true) {
+        continue;
+        let x = 1;  # dead
+    }
+    

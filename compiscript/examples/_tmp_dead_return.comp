@@ -1,0 +1,7 @@
+
+    function f(): integer {
+        return 1;
+        let x = 2;      // dead
+        const y: integer = 3; // dead
+    }
+    

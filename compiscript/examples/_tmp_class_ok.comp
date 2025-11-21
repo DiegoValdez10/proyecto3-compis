@@ -1,0 +1,9 @@
+
+    class A {
+        function f(): integer {
+            return 1;
+        }
+        let v: integer = 10;
+    }
+    let o = new A();
+    

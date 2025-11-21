@@ -1,0 +1,1 @@
+let arr: integer[] = [1,2]; let v = arr[true];

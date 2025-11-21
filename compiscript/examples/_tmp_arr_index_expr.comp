@@ -1,0 +1,1 @@
+let a: integer[] = [1,2]; let b: integer = a[0] + 1;

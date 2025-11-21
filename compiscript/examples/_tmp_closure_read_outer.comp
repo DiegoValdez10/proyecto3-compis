@@ -1,0 +1,8 @@
+
+    let base: integer = 10;
+    function makeAdder(): integer {
+        function add1(): integer { return base + 1; }
+        return add1();
+    }
+    let z: integer = makeAdder();
+    

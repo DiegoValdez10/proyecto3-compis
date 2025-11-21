@@ -1,0 +1,27 @@
+var a = 5;
+var b = 10;
+var c = 10;
+
+if (a < b) {
+    print "B is greater than A";
+}
+
+if (a > b) {
+    print "A is greater than B";
+}
+
+if (a >= b) {
+    print "A is greater than or equal to B";
+}
+
+if (a <= b) {
+    print "A is less than or equal to B";
+}
+
+if (c >= b) {
+    print "C is greater than or equal to B";
+}
+
+if (c <= b) {
+    print "C is less than or equal to B";
+}

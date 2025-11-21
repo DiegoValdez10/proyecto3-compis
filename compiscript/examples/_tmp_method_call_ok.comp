@@ -1,0 +1,7 @@
+
+    class A {
+        function sum(a: integer, b: integer): integer { return a + b; }
+    }
+    let o = new A();
+    let x: integer = o.sum(1, 2);
+    

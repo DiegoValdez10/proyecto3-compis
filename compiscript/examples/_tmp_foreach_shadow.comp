@@ -1,0 +1,7 @@
+
+    let x: integer = 42;
+    foreach (x in [1,2]) {
+        let x: integer = 99;
+        print(x);
+    }
+    

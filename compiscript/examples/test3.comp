@@ -1,0 +1,17 @@
+
+let a: integer = 5;
+b = 10;   // 'b' no existe
+
+let c: integer = "hola";
+
+if (a + 1) {
+    print("esto no se debería permitir");
+}
+
+return 42;
+
+let x: integer = 1;
+let x: integer = 2;
+
+
+break;

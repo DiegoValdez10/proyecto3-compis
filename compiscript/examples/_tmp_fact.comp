@@ -1,0 +1,7 @@
+
+    function fact(n: integer): integer {
+        if (n < 2) { return 1; }
+        return n * fact(n - 1);
+    }
+    let x: integer = fact(5);
+    

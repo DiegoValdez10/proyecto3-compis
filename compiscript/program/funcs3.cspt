@@ -1,0 +1,16 @@
+fun Calc(x:int, y: int) {
+    var r = x * y;
+
+    return r;
+}
+
+fun Suma(a: int, b: int, c: int){
+    var z = Calc(a,b);
+
+    var t = z + c;
+
+    return t;
+}
+
+var res = Suma(2,3,4);
+print res;
